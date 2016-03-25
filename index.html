@@ -58,19 +58,19 @@ function show_pay (form) {
       <div class="header clearfix">
         <nav>
           <ul class="nav nav-pills pull-right">
-            <li role="presentation" class="active"><a href="#">Home</a></li>
-            <li role="presentation"><a href="#">About</a></li>
-            <li role="presentation"><a href="#">Contact</a></li>
+            <li role="presentation" class="active"><a href="index.html">Home</a></li>
+            <li role="presentation"><a href="about.html">About</a></li>
+            <li role="presentation"><a href="https://github.com/dreinhold/mypay">Code</a></li>
           </ul>
         </nav>
         <h3 class="text-muted">Hourly Pay</h3>
       </div>
 
       <div class="jumbotron">
-           <h2>What is my Hourly Pay</h1>
+           <h2>What is my Hourly Pay</h2>
            <form>
-           <p class="lead">Your yearly salary : <input type="text" name="year_pay"></p>
-<p>Number of hours worked per week : <input type="text" name="weekly_hours"></p>
+           <p class="lead">Your yearly salary : <input type="text" name="year_pay" value="95000"></p>
+<p>Number of hours worked per week : <input type="text" name="weekly_hours" value="45"></p>
 <input class="btn btn-lg btn-success" type="submit" value="Show me" onClick="return show_pay(this.form)">
 </form>
 </div>
